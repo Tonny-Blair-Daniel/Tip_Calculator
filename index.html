@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="tipCalculator.css">
+  <script defer src="tipCalculator.js"></script>
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="./images/logo.svg" alt="logo name">
+    </header>
+
+    <div class="content">
+      <div class="tip">
+        <div class="inputContainer">
+          <label for="bill">Bill</label>
+          <input type="text" id="bill" class="bill" placeholder="0">
+        </div>      
+          <p>Select Tip %</p>
+        <div class="percent">
+          <button class="Btn" data-option="0.05">5%</button>
+          <button class="Btn" data-option="0.10">10%</button>
+          <button class="Btn" data-option="0.15">15%</button>
+          <button class="Btn" data-option="0.20">20%</button>
+          <button class="Btn" data-option="0.25">25%</button>
+          <input type="text" class="custom" placeholder="custom">
+        </div>
+      
+        <div class="inputContainer">
+          <label for="numberOfPeople">Number of People</label><br>
+          <input type="text" id="numberOfPeople" class="numberOfPeople" placeholder="0">
+        </div>
+      </div>
+  
+      <div class="result">
+        <div class="resultContent">
+          <div class="amount">
+            <div class="left">
+              <ul>
+                <li>Tip Amount</li> 
+                <li>/ person</li>
+              </ul>
+            </div>
+            <div class="right">
+              <span id="tipAmount"></span>
+            </div>
+          </div>
+        
+          <div class="amount">
+            <div class="left">
+              <ul>
+                <li>Total</li> 
+                <li>/ person</li>
+              </ul>
+            </div>
+            <div class="right">
+              <span id="total"></span>
+            </div>
+          </div>
+        </div>
+      
+        <div class="resetbtn1">
+          <button class="resetbtn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
