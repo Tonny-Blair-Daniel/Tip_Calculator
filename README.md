@@ -49,4 +49,4 @@ console.log('hello' + `${name}`);
 
 ## Author
 
-- Frontend Mentor - [Tonny Blair]()
+- Frontend Mentor - [Tonny Blair](https://www.frontendmentor.io/profile/Tonny-Blair-Daniel)
